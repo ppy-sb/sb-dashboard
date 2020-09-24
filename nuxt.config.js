@@ -91,7 +91,7 @@ module.exports = {
   */
   modules: [
     // // Doc: https://bootstrap-vue.js.org
-    // 'bootstrap-vue/nuxt',
+    'bootstrap-vue/nuxt',
     // // Doc: https://axios.nuxtjs.org/usage
     // '@nuxtjs/axios',
     // Doc: https://github.com/nuxt/content
@@ -112,7 +112,6 @@ module.exports = {
     //   // ]
 
     // }],
-    'bootstrap-vue/nuxt',
     'nuxt-clipboard2'
     // '@nuxtjs/pwa'
   ],

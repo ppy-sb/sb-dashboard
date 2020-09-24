@@ -80,12 +80,11 @@
                 >
                   <button
                     v-b-tooltip.hover.top
-                    v-clipboard:copy="icon.name"
-                    v-clipboard:success="onCopy"
                     type="button"
                     :title="icon.name"
                     class="btn-icon-clipboard"
                     data-clipboard-text="air-baloon"
+                    @click="doCopy(icon.name)"
                   >
                     <div>
                       <i :class="icon.name" />
@@ -217,6 +216,9 @@ export default {
     }
   },
   methods: {
+    doCopy (text) {
+      this.$copyText(text).then(this.onCopy)
+    },
     onCopy () {
       this.$notify({
         type: 'success',

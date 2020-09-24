@@ -218,6 +218,7 @@
 </template>
 <script>
 export default {
+  layout: 'DashboardLayout',
   name: 'UserProfile',
   data () {
     return {
