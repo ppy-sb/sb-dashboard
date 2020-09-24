@@ -102,9 +102,9 @@
   </div>
 </template>
 <script>
-import Vue from 'vue'
-import VueClipboard from 'vue-clipboard2'
-Vue.use(VueClipboard)
+// import Vue from 'vue'
+// import VueClipboard from 'nuxt-clipboard2'
+// Vue.use(VueClipboard)
 export default {
   layout: 'DashboardLayout',
   directives: {
