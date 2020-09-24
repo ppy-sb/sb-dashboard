@@ -1,0 +1,65 @@
+{
+  "collectionCard": {
+    "beatmapLink": "/b/ link",
+    "beatmapSetPage": "beatmapset page",
+    "beatmapStatic": "beatmap static",
+    "copyBeatmapIds": "copy all map's id",
+    "copyBeatmapLinks": "copy all map's link",
+    "copySetIds": "copy all set's id",
+    "copySetLinks": "copy all set's link",
+    "mapCount": "maps",
+    "more": "More",
+    "otherDiffs": "other diffs",
+    "setId": "set id:",
+    "thread": "thread"
+  },
+  "header": {
+    "findCollection": "Searching for collections? <<<<<<"
+  },
+  "landing": {
+    "recentCollectionsButton": "recent",
+    "subtitle": "find more [ M A P S ]",
+    "title": "collection sharing",
+    "topCollectionsButton": "most voted"
+  },
+  "locale": "Swtich locale",
+  "statements": {
+    "testTitle": "collection sharing alpha"
+  },
+  "upload": {
+    "collectionLink": "collection link",
+    "compile": "compile",
+    "disclaimer": "osu.db are only used for referencing the map in your collection.db and will not be uploaded! thus we may collect some data to improve other user's experirence such as your local offset",
+    "done": "done",
+    "form": {
+      "label": {
+        "collectionDB": "collection.db:",
+        "collectionDescription": "collection description:",
+        "collectionName": "name your collection:"
+      },
+      "placeholder": {
+        "collectionDB": "Choose collection.db in your osu! folder or drop it here...",
+        "descriptionPlaceholder": "Enter something...",
+        "dropFile": "Drop file here...",
+        "myCollection": "my collection",
+        "osuDB": "Choose osu!.db in your osu! folder or drop it here..."
+      }
+    },
+    "onlyShowUploadingCollections": "only show uploading collections",
+    "parse": "parse",
+    "upload": "upload"
+  },
+  "user": {
+    "uploadedBy": "uploaded by"
+  },
+  "viewer": {
+    "collectionNonExists": "collection not exist.",
+    "copySummary": "copy collection summary",
+    "downvote": "💩",
+    "generateCollectionDB": "generate collection.db",
+    "somethingWentWrong": "or something went (pretty badly) wrong!",
+    "summaryAsText": "summary as text file (sayo compatible)",
+    "unvote": "😑",
+    "upvote": "😇"
+  }
+}
